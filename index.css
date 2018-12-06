@@ -1,12 +1,40 @@
 .jumbotron {
   /*margin-bottom: 0;*/
   border-radius: 0;
+  background-image: url("img/bg.jpg");
+  background-size: cover;
+  color: #EFEFEF;
+  font-weight: 800px;
+  font-family: arial, "sans-serif";
+  min-height: 400px;
+}
+
+
+
+.jumbotron h1 {
+  text-shadow: 2px 2px 5px #000;
+  color: white;
+  width: 100%;
 }
 
 body {
-  background-color: green;
+  background-color: #395D33;
 }
+
+/*.navbar {
+  background-color: #395D33 !important;
+
+}*/
 
 .navbar-nav {
   width: 100%;
 }
+/*
+.nav-link,  {
+  color: white !important;  
+
+}
+
+.navbar-toggler-icon {
+  color: white;
+}*/
